@@ -12,5 +12,6 @@ Reference links
 
 - <a href="https://lastminuteengineers.com/servo-motor-arduino-tutorial/">How Servo Motor Works & Interface It With Arduino</a>
 - <a href="https://circuitdigest.com/microcontroller-projects/interfacing-ir-sensor-module-with-arduino">Interfacing IR Sensor Module with Arduino</a>
+- <a href="https://lastminuteengineers.com/sound-sensor-arduino-tutorial/">Interface Sound Sensor with Arduino</a>
 
 > ⚠️work in progress
