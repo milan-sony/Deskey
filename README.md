@@ -13,6 +13,7 @@ Components Used
 - SG90 Servo Motor (x3)
 - IR Sensor (x3)
 - Sound Sensor (x2)
+- I2C OLED Display (SSD1306 model: monocolor, 0.96-inch display with 128×64 pixels)
 
 Reference Links
 
