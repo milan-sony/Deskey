@@ -8,4 +8,8 @@
 
 <p align="center">A simple <b>DESKTOP PET</b> build on Arduino</p>
 
+Reference links
+
+- <a href="https://lastminuteengineers.com/servo-motor-arduino-tutorial/">How Servo Motor Works & Interface It With Arduino</a>
+
 > work in progress
