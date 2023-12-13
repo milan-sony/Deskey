@@ -444,11 +444,17 @@ void lookright(){
 
 void eyeMoves(){
   blink_eye();
+  delay(500);
   lookright();
+  delay(500);
   lookright();
+  delay(500);
   blink_eye();
+  delay(500);
   lookleft();
+  delay(500);
   lookleft();
+  delay(500);
 }
 
 void loop() {
