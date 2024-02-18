@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  <b>M I L O<sup>🤖</sup></b>
+  <b>D E S K E Y<sup>🤖</sup></b>
 </h1>
 
 <p align="center"><i>A simple <b>DESKTOP PET</b> build on Arduino</i></p>
