@@ -8,13 +8,11 @@
 // pin outs //  variables
 // IR sensor
 int IRSensorHead = 2; // connect head IR sensor module to Arduino pin D2
-int IRSensorLeft = 8; // connect left IR sensor module to Arduino pin D8
-int IRSensorRight = 4; // connect right IR sensor module to Arduino pin D4
 
 // servo motor
 int LeftservoPin = 5; // left servo
 int RightservoPin = 6; // right servo
-int HeadservoPin = 7; // head servo
+int HeadservoPin = 7; // body servo
 
 int angle = 0;  // servo position in degree
 
@@ -73,20 +71,11 @@ void rightArm(){
 
 void loop(){
   int IRHeadsensorStatus = digitalRead(IRSensorHead);
-  int IRLeftsensorStatus = digitalRead(IRSensorLeft);
-  int IRRightsensorStatus = digitalRead(IRSensorRight); 
-  if (IRRightsensorStatus == 0) // check if the pin is high or not
+  if (IRHeadsensorStatus == 0) // check if the pin is high or not
   {
     // delay(1000);
     Serial.println("Motion Detected on Right");
     rightArm();
-  }
-  else if(IRLeftsensorStatus == 0)  {
-    Serial.println("Motion Detected on Left");
-    leftArm();
-  }
-  else if(IRHeadsensorStatus == 0){
-    Serial.println("Motion Detected on Head");
   }
   else{
     Serial.println("No Motion Detected");
